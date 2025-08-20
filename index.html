@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moksh Saini - portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Moksh's <span>Portfolio</span></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">ME</li></a>
+                    <li><a href="/">Experience</li></a>
+                    <li><a href="/">Skills</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div class="name"><span id="moksh">Moksh</span>Saini</div>
+                <span id="element"></span>
+                <div class="web"> Holding a BCA from Don Bosco Institute of Technology, with a high
+                    command in Data Structures and Algorithms. I specialize in data science and machine
+                    learning, skilled in building and deploying predictive models that extract actionable insights
+                    to drive business growth and innovation.</div>
+
+            </div>
+            <div class="rightsection">
+                <img src="/Moksh.jpg" alt="" width="300" height="200">
+            </div>
+
+        </section>
+        <div class="buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="/Resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+    </main>
+    <div class="skills">
+        <h1>My Skills</h1>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h2>Programming Languages</h2>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">C/C++</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <h2>Frontend Technologies</h2>
+                <div class="tags">
+                    <span class="tag">React.js</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
+            </div>
+
+
+            <div class="skill-card">
+                <h2>Data Science & Analysis</h2>
+                <div class="tags">
+                    <span class="tag">MS Excel</span>
+                    <span class="tag">PowerBI</span>
+                    <span class="tag">Data Visualization</span>
+                    <span class="tag">SQL</span>
+                </div>
+            </div>
+        </div>
+        <div class="github">
+            <a href="https://github.com/mokshsaini12" class="github-btn"target="blank">
+                Check My Github →
+            </a>
+        </div>
+
+    </div>
+    <section class="contact-section">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><i class="fas fa-envelope"></i>Mokshsaini442@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +91 8800379497</p>
+            <p><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+
+            <div class="social-icons">
+                <span class="connect">Connect With Me</span>
+                <a href="https://www.linkedin.com/in/moksh-saini-735a51375/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/moksh_sainii?igsh=MWtod3BhNHY1cGJ6OA=="target="blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://github.com/mokshsaini12" target="blank"><i class="fab fa-github" ></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form>
+                <input type="text" placeholder="Your Name..." required />
+                <input type="email" placeholder="Your email address..." required />
+                <textarea placeholder="Hello, I'd like to talk about..." required></textarea>
+                <button type="submit">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web and python Devoloper', 'Video editor', 'C programming', 'Aspiring a AI/Ml Engineer']
+            , typeSpeed: 40,
+        });
+    </script>
+</body>
+
+</html>
